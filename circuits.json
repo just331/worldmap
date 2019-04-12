@@ -5,10 +5,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-
-        "coordinates":  [ 144.968,-37.8497 ]     },
+        "coordinates":  [ 144.968,-37.8497 ]
+      },
       "properties": {
-        "name":"Albert Park Grand Prix Circuit"
+        "circuitName":"Albert Park Grand Prix Circuit",
+        "circuitID" : 1
       }
     },
     {
@@ -18,7 +19,8 @@
         "coordinates":  [ 101.738,2.76083 ]
       },
       "properties": {
-        "name":"Sepang International Circuit"
+        "circuitName":"Sepang International Circuit",
+        "circuitID" : 2
       }
     },
     {
@@ -28,7 +30,8 @@
         "coordinates":  [ 50.5106,26.0325 ]
       },
       "properties": {
-        "name":"Bahrain International Circuit"
+        "circuitName":"Bahrain International Circuit",
+        "circuitID" : 3
       }
     },
     {
@@ -38,7 +41,8 @@
         "coordinates":  [ 2.26111,41.57 ]
       },
       "properties": {
-        "name":"Circuit de Barcelona-Catalunya"
+        "circuitName":"Circuit de Barcelona-Catalunya",
+        "circuitID" : 4
       }
     },
     {
@@ -48,7 +52,8 @@
         "coordinates":  [ 29.405,40.9517 ]
       },
       "properties": {
-        "name":"Istanbul Park"
+        "circuitName":"Istanbul Park",
+        "circuitID" : 5
       }
     },
     {
@@ -58,7 +63,8 @@
         "coordinates":  [ 7.42056,43.7347 ]
       },
       "properties": {
-        "name":"Circuit de Monaco"
+        "circuitName":"Circuit de Monaco",
+        "circuitID" : 6
       }
     },
     {
@@ -68,7 +74,8 @@
         "coordinates":  [ -73.5228,45.5 ]
       },
       "properties": {
-        "name":"Circuit Gilles Villeneuve"
+        "circuitName":"Circuit Gilles Villeneuve",
+        "circuitID" : 7
       }
     },
     {
@@ -78,7 +85,8 @@
         "coordinates":  [ 3.16361,46.8642 ]
       },
       "properties": {
-        "name":"Circuit de Nevers Magny-Cours"
+        "circuitName":"Circuit de Nevers Magny-Cours",
+        "circuitID" : 8
       }
     },
     {
@@ -88,7 +96,8 @@
         "coordinates":  [ -1.01694,52.0786 ]
       },
       "properties": {
-        "name":"Silverstone Circuit"
+        "circuitName":"Silverstone Circuit",
+        "circuitID" : 9
       }
     },
     {
@@ -98,7 +107,8 @@
         "coordinates":  [ 8.56583,49.3278 ]
       },
       "properties": {
-        "name":"Hockenheimring"
+        "circuitName":"Hockenheimring",
+        "circuitID" : 10
       }
     },
     {
@@ -108,7 +118,8 @@
         "coordinates":  [ 19.2486,47.5789 ]
       },
       "properties": {
-        "name":"Hungaroring"
+        "circuitName":"Hungaroring",
+        "circuitID" : 11
       }
     },
     {
@@ -118,7 +129,8 @@
         "coordinates":  [ -0.331667,39.4589 ]
       },
       "properties": {
-        "name":"Valencia Street Circuit"
+        "circuitName":"Valencia Street Circuit",
+        "circuitID" : 12
       }
     },
     {
@@ -128,7 +140,8 @@
         "coordinates":  [ 5.97139,50.4372 ]
       },
       "properties": {
-        "name":"Circuit de Spa-Francorchamps"
+        "circuitName":"Circuit de Spa-Francorchamps",
+        "circuitID" : 13
       }
     },
     {
@@ -138,7 +151,8 @@
         "coordinates":  [ 9.28111,45.6156 ]
       },
       "properties": {
-        "name":"Autodromo Nazionale di Monza"
+        "circuitName":"Autodromo Nazionale di Monza",
+        "circuitID" : 14
       }
     },
     {
@@ -148,7 +162,8 @@
         "coordinates":  [ 103.864,1.2914 ]
       },
       "properties": {
-        "name":"Marina Bay Street Circuit"
+        "circuitName":"Marina Bay Street Circuit",
+        "circuitID" : 15
       }
     },
     {
@@ -158,7 +173,8 @@
         "coordinates":  [ 138.927,35.3717 ]
       },
       "properties": {
-        "name":"Fuji Speedway"
+        "circuitName":"Fuji Speedway",
+        "circuitID" : 16
       }
     },
     {
@@ -168,7 +184,8 @@
         "coordinates":  [ 121.22,31.3389 ]
       },
       "properties": {
-        "name":"Shanghai International Circuit"
+        "circuitName":"Shanghai International Circuit",
+        "circuitID" : 17
       }
     },
     {
@@ -178,7 +195,8 @@
         "coordinates":  [ -46.6997,-23.7036 ]
       },
       "properties": {
-        "name":"Aut�_dromo Jos̩ Carlos Pace"
+        "circuitName":"Aut�_dromo Jos̩ Carlos Pace",
+        "circuitID" : 18
       }
     },
     {
@@ -188,7 +206,8 @@
         "coordinates":  [ -86.2347,39.795 ]
       },
       "properties": {
-        "name":"Indianapolis Motor Speedway"
+        "circuitName":"Indianapolis Motor Speedway",
+        "circuitID" : 19
       }
     },
     {
@@ -198,7 +217,8 @@
         "coordinates":  [ 6.9475,50.3356 ]
       },
       "properties": {
-        "name":"N�_rburgring"
+        "circuitName":"N�_rburgring",
+        "circuitID" : 20
       }
     },
     {
@@ -208,7 +228,8 @@
         "coordinates":  [ 11.7167,44.3439 ]
       },
       "properties": {
-        "name":"Autodromo Enzo e Dino Ferrari"
+        "circuitName":"Autodromo Enzo e Dino Ferrari",
+        "circuitID" : 21
       }
     },
     {
@@ -218,7 +239,8 @@
         "coordinates":  [ 136.541,34.8431 ]
       },
       "properties": {
-        "name":"Suzuka Circuit"
+        "circuitName":"Suzuka Circuit",
+        "circuitID" : 22
       }
     },
     {
@@ -228,7 +250,8 @@
         "coordinates":  [ 14.7647,47.2197 ]
       },
       "properties": {
-        "name":"A1-Ring"
+        "circuitName":"A1-Ring",
+        "circuitID" : 23
       }
     },
     {
@@ -238,7 +261,8 @@
         "coordinates":  [ 54.6031,24.4672 ]
       },
       "properties": {
-        "name":"Yas Marina Circuit"
+        "circuitName":"Yas Marina Circuit",
+        "circuitID" : 24
       }
     },
     {
@@ -248,7 +272,8 @@
         "coordinates":  [ -58.4593,-34.6943 ]
       },
       "properties": {
-        "name":"Aut�_dromo Juan y Oscar G��lvez"
+        "circuitName":"Aut�_dromo Juan y Oscar G��lvez",
+        "circuitID" : 25
       }
     },
     {
@@ -258,7 +283,8 @@
         "coordinates":  [ -6.03417,36.7083 ]
       },
       "properties": {
-        "name":"Circuito de Jerez"
+        "circuitName":"Circuito de Jerez",
+        "circuitID" : 26
       }
     },
     {
@@ -268,7 +294,8 @@
         "coordinates":  [ -9.39417,38.7506 ]
       },
       "properties": {
-        "name":"Aut�_dromo do Estoril"
+        "circuitName":"Aut�_dromo do Estoril",
+        "circuitID" : 27
       }
     },
     {
@@ -278,7 +305,8 @@
         "coordinates":  [ 134.221,34.915 ]
       },
       "properties": {
-        "name":"Okayama International Circuit"
+        "circuitName":"Okayama International Circuit",
+        "circuitID" : 28
       }
     },
     {
@@ -288,7 +316,8 @@
         "coordinates":  [ 138.617,-34.9272 ]
       },
       "properties": {
-        "name":"Adelaide Street Circuit"
+        "circuitName":"Adelaide Street Circuit",
+        "circuitID" : 29
       }
     },
     {
@@ -298,7 +327,8 @@
         "coordinates":  [ 28.0767,-25.9894 ]
       },
       "properties": {
-        "name":"Kyalami"
+        "circuitName":"Kyalami",
+        "circuitID" : 30
       }
     },
     {
@@ -308,7 +338,8 @@
         "coordinates":  [ -1.37528,52.8306 ]
       },
       "properties": {
-        "name":"Donington Park"
+        "circuitName":"Donington Park",
+        "circuitID" : 31
       }
     },
     {
@@ -318,7 +349,8 @@
         "coordinates":  [ -99.0907,19.4042 ]
       },
       "properties": {
-        "name":"Aut�_dromo Hermanos Rodr�_guez"
+        "circuitName":"Aut�_dromo Hermanos Rodr�_guez",
+        "circuitID" : 32
       }
     },
     {
@@ -328,7 +360,8 @@
         "coordinates":  [ -112.075,33.4479 ]
       },
       "properties": {
-        "name":"Phoenix street circuit"
+        "circuitName":"Phoenix street circuit",
+        "circuitID" : 33
       }
     },
     {
@@ -338,7 +371,8 @@
         "coordinates":  [ 5.79167,43.2506 ]
       },
       "properties": {
-        "name":"Circuit Paul Ricard"
+        "circuitName":"Circuit Paul Ricard",
+        "circuitID" : 34
       }
     },
     {
@@ -348,7 +382,8 @@
         "coordinates":  [ 126.417,34.7333 ]
       },
       "properties": {
-        "name":"Korean International Circuit"
+        "circuitName":"Korean International Circuit",
+        "circuitID" : 35
       }
     },
     {
@@ -358,7 +393,8 @@
         "coordinates":  [ -43.395,-22.9756 ]
       },
       "properties": {
-        "name":"Aut�_dromo Internacional Nelson Piquet"
+        "circuitName":"Aut�_dromo Internacional Nelson Piquet",
+        "circuitID" : 36
       }
     },
     {
@@ -368,7 +404,8 @@
         "coordinates":  [ -83.0401,42.3298 ]
       },
       "properties": {
-        "name":"Detroit Street Circuit"
+        "circuitName":"Detroit Street Circuit",
+        "circuitID" : 37
       }
     },
     {
@@ -378,7 +415,8 @@
         "coordinates":  [ 0.263056,51.3569 ]
       },
       "properties": {
-        "name":"Brands Hatch"
+        "circuitName":"Brands Hatch",
+        "circuitID" : 38
       }
     },
     {
@@ -388,7 +426,8 @@
         "coordinates":  [ 4.54092,52.3888 ]
       },
       "properties": {
-        "name":"Circuit Park Zandvoort"
+        "circuitName":"Circuit Park Zandvoort",
+        "circuitID" : 39
       }
     },
     {
@@ -398,7 +437,8 @@
         "coordinates":  [ 5.25694,50.9894 ]
       },
       "properties": {
-        "name":"Zolder"
+        "circuitName":"Zolder",
+        "circuitID" : 40
       }
     },
     {
@@ -408,7 +448,8 @@
         "coordinates":  [ 4.89913,47.3625 ]
       },
       "properties": {
-        "name":"Dijon-Prenois"
+        "circuitName":"Dijon-Prenois",
+        "circuitID" : 41
       }
     },
     {
@@ -418,7 +459,8 @@
         "coordinates":  [ -96.7587,32.7774 ]
       },
       "properties": {
-        "name":"Fair Park"
+        "circuitName":"Fair Park",
+        "circuitID" : 42
       }
     },
     {
@@ -428,7 +470,8 @@
         "coordinates":  [ -118.189,33.7651 ]
       },
       "properties": {
-        "name":"Long Beach"
+        "circuitName":"Long Beach",
+        "circuitID" : 43
       }
     },
     {
@@ -438,7 +481,8 @@
         "coordinates":  [ -115.174,36.1162 ]
       },
       "properties": {
-        "name":"Las Vegas Street Circuit"
+        "circuitName":"Las Vegas Street Circuit",
+        "circuitID" : 44
       }
     },
     {
@@ -448,7 +492,8 @@
         "coordinates":  [ -3.58558,40.6171 ]
       },
       "properties": {
-        "name":"Jarama"
+        "circuitName":"Jarama",
+        "circuitID" : 45
       }
     },
     {
@@ -458,7 +503,8 @@
         "coordinates":  [ -76.9272,42.3369 ]
       },
       "properties": {
-        "name":"Watkins Glen"
+        "circuitName":"Watkins Glen",
+        "circuitID" : 46
       }
     },
     {
@@ -468,7 +514,8 @@
         "coordinates":  [ 13.6042,57.2653 ]
       },
       "properties": {
-        "name":"Scandinavian Raceway"
+        "circuitName":"Scandinavian Raceway",
+        "circuitID" : 47
       }
     },
     {
@@ -478,7 +525,8 @@
         "coordinates":  [ -78.6756,44.0481 ]
       },
       "properties": {
-        "name":"Mosport International Raceway"
+        "circuitName":"Mosport International Raceway",
+        "circuitID" : 48
       }
     },
     {
@@ -488,7 +536,8 @@
         "coordinates":  [ 2.15167,41.3664 ]
       },
       "properties": {
-        "name":"Montju��c"
+        "circuitName":"Montju��c",
+        "circuitID" : 49
       }
     },
     {
@@ -498,7 +547,8 @@
         "coordinates":  [ 4.32694,50.6211 ]
       },
       "properties": {
-        "name":"Nivelles-Baulers"
+        "circuitName":"Nivelles-Baulers",
+        "circuitID" : 50
       }
     },
     {
@@ -508,7 +558,8 @@
         "coordinates":  [ 3.03889,45.7472 ]
       },
       "properties": {
-        "name":"Charade Circuit"
+        "circuitName":"Charade Circuit",
+        "circuitID" : 51
       }
     },
     {
@@ -518,7 +569,8 @@
         "coordinates":  [ -74.6099,46.1877 ]
       },
       "properties": {
-        "name":"Circuit Mont-Tremblant"
+        "circuitName":"Circuit Mont-Tremblant",
+        "circuitID" : 52
       }
     },
     {
@@ -528,7 +580,8 @@
         "coordinates":  [ 1.00458,49.3306 ]
       },
       "properties": {
-        "name":"Rouen-Les-Essarts"
+        "circuitName":"Rouen-Les-Essarts",
+        "circuitID" : 53
       }
     },
     {
@@ -538,7 +591,8 @@
         "coordinates":  [ 0.224231,47.95 ]
       },
       "properties": {
-        "name":"Le Mans"
+        "circuitName":"Le Mans",
+        "circuitID" : 54
       }
     },
     {
@@ -548,7 +602,8 @@
         "coordinates":  [ 3.93083,49.2542 ]
       },
       "properties": {
-        "name":"Reims-Gueux"
+        "circuitName":"Reims-Gueux",
+        "circuitID" : 55
       }
     },
     {
@@ -558,7 +613,8 @@
         "coordinates":  [ 27.8736,-33.0486 ]
       },
       "properties": {
-        "name":"Prince George Circuit"
+        "circuitName":"Prince George Circuit",
+        "circuitID" : 56
       }
     },
     {
@@ -568,7 +624,8 @@
         "coordinates":  [ 14.7478,47.2039 ]
       },
       "properties": {
-        "name":"Zeltweg"
+        "circuitName":"Zeltweg",
+        "circuitID" : 57
       }
     },
     {
@@ -578,7 +635,8 @@
         "coordinates":  [ -2.94056,53.4769 ]
       },
       "properties": {
-        "name":"Aintree"
+        "circuitName":"Aintree",
+        "circuitID" : 58
       }
     },
     {
@@ -588,7 +646,8 @@
         "coordinates":  [ -8.67325,41.1705 ]
       },
       "properties": {
-        "name":"Circuito da Boavista"
+        "circuitName":"Circuito da Boavista",
+        "circuitID" : 59
       }
     },
     {
@@ -598,7 +657,8 @@
         "coordinates":  [ -117.273,33.937 ]
       },
       "properties": {
-        "name":"Riverside International Raceway"
+        "circuitName":"Riverside International Raceway",
+        "circuitID" : 60
       }
     },
     {
@@ -608,7 +668,8 @@
         "coordinates":  [ 13.2514,52.4806 ]
       },
       "properties": {
-        "name":"AVUS"
+        "circuitName":"AVUS",
+        "circuitID" : 61
       }
     },
     {
@@ -618,7 +679,8 @@
         "coordinates":  [ -9.20306,38.7197 ]
       },
       "properties": {
-        "name":"Monsanto Park Circuit"
+        "circuitName":"Monsanto Park Circuit",
+        "circuitID" : 62
       }
     },
     {
@@ -628,7 +690,8 @@
         "coordinates":  [ -81.3483,27.4547 ]
       },
       "properties": {
-        "name":"Sebring International Raceway"
+        "circuitName":"Sebring International Raceway",
+        "circuitID" : 63
       }
     },
     {
@@ -638,7 +701,8 @@
         "coordinates":  [ -7.6875,33.5786 ]
       },
       "properties": {
-        "name":"Ain Diab"
+        "circuitName":"Ain Diab",
+        "circuitID" : 64
       }
     },
     {
@@ -648,7 +712,8 @@
         "coordinates":  [ 14.1508,42.475 ]
       },
       "properties": {
-        "name":"Pescara Circuit"
+        "circuitName":"Pescara Circuit",
+        "circuitID" : 65
       }
     },
     {
@@ -658,7 +723,8 @@
         "coordinates":  [ 7.40194,46.9589 ]
       },
       "properties": {
-        "name":"Circuit Bremgarten"
+        "circuitName":"Circuit Bremgarten",
+        "circuitID" : 66
       }
     },
     {
@@ -668,7 +734,8 @@
         "coordinates":  [ 2.11667,41.3903 ]
       },
       "properties": {
-        "name":"Circuit de Pedralbes"
+        "circuitName":"Circuit de Pedralbes",
+        "circuitID" : 67
       }
     },
     {
@@ -678,7 +745,8 @@
         "coordinates":  [ 77.5331,28.3487 ]
       },
       "properties": {
-        "name":"Buddh International Circuit"
+        "circuitName":"Buddh International Circuit",
+        "circuitID" : 68
       }
     },
     {
@@ -688,7 +756,8 @@
         "coordinates":  [ -97.6411,30.1328 ]
       },
       "properties": {
-        "name":"Circuit of the Americas"
+        "circuitName":"Circuit of the Americas",
+        "circuitID" : 69
       }
     },
     {
@@ -698,7 +767,8 @@
         "coordinates":  [ 14.7647,47.2197 ]
       },
       "properties": {
-        "name":"Red Bull Ring"
+        "circuitName":"Red Bull Ring",
+        "circuitID" : 70
       }
     },
     {
@@ -708,7 +778,8 @@
         "coordinates":  [ 39.9578,43.4057 ]
       },
       "properties": {
-        "name":"Sochi Autodrom"
+        "circuitName":"Sochi Autodrom",
+        "circuitID" : 71
       }
     },
     {
@@ -718,7 +789,8 @@
         "coordinates":  [ -74.0111,40.7769 ]
       },
       "properties": {
-        "name":"Port Imperial Street Circuit"
+        "circuitName":"Port Imperial Street Circuit",
+        "circuitID" : 72
       }
     },
     {
@@ -728,9 +800,9 @@
         "coordinates":  [ 49.8533,40.3725 ]
       },
       "properties": {
-        "name":"Baku City Circuit"
+        "circuitName":"Baku City Circuit",
+        "circuitID" : 73
       }
     }
   ]
 }
-

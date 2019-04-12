@@ -19,31 +19,60 @@
         fill: yellow;
     }
     .geopath {
-        fill: blue;
+        fill: green;
+    }
+    .tooltip{ background-color:rgba(68,136,187,0.5);;
+        margin: 10px;
+        height: 50px;
+        width: 150px;
+        padding-left: 10px;
+        padding-top: 10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius:10px;
     }
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script type="text/javascript" src="tooltip.js"></script>
+<!--<script>src="https://github.com/jashkenas/underscore/blob/master/underscore.js"</script>
+-->
+
 <script>
-    var width = 1200,
-        height = 720;
+    var width = 960,
+        height = 500;
+
+
     var projection = d3.geo.mercator()
         .scale(200)
-        .center([0,5])
-        .precision(.1)
         .translate([width / 2, height / 2]);
+
+
     var path = d3.geo.path()
         .projection(projection);
+
     var graticule = d3.geo.graticule();
+
     var svg = d3.select("body").append("svg")
         .attr("width", width)
         .attr("height", height);
+
     svg.append("path")
         .datum(graticule)
         .attr("class", "graticule")
         .attr("d", path);
-    d3.json("world-110m.json", function(error, world) {
+
+
+
+    queue()
+        .defer(d3.json, "world-110m.json")
+        .defer(d3.json, "circuits.json")
+        .await(ready);
+
+
+    function ready(error, world, data) {
         svg.insert("path", ".graticule")
             .datum(topojson.feature(world, world.objects.land))
             .attr("class", "land")
@@ -52,27 +81,18 @@
             .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
             .attr("class", "boundary")
             .attr("d", path);
-    });
-    d3.json("circuits.geojson", function(error, data) {
+
         svg.append("path")
             .datum(data)
-            .classed("geopath", true)
-            .attr("d", path);
-    });
-    d3.select(self.frameElement).style("height", height + "px");
+            .classed("geopath",true)
+            .attr("d", path)
+            .call(d3.helper.tooltip(
+                function(d){
+                    return "<b>"+d.circuitName + "</b><br/>"+d.circuitID;
 
-    var zoom = d3.behavior.zoom()
-        .on("zoom",function() {
-            svg.attr("transform","translate("+
-                d3.event.translate.join(",")+")scale("+d3.event.scale+")");
-            svg.selectAll("circle")
-                .attr("d", path.projection(projection));
-            svg.selectAll("path")
-                .attr("d", path.projection(projection));
+                }
+            ));
+    }
 
-        });
-
-    svg.call(zoom)
 
 </script>
-
